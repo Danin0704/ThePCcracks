@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.background {
+    background-color: #181824;
+}
+
+li a:hover {
+    color: lime;
+    filter: drop-shadow(0px 0px 5px lime);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.full1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px solid lime;
+    border-radius: 20px;
+}
+
+.center1 {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont1 {
+    width: 25%;
+    background-color: #181824;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    background-color: #181824;
+}
+
+.p1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.full2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.center2 {
+    width: 85%;
+    display: flex;
+}
+
+.imgcont1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    width: 100%;
+    border: 10px solid lime;
+    border-radius: 20px;
+    transition: 0.6s;
+    filter: grayscale(0%);
+    object-fit: contain;
+}
+
+.img1:hover {
+    transform: translateX(10px);
+    filter: grayscale(50%);
+}
+
+.p2 {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 50%;
+
+}
+
+.p3 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.full3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.center3 {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textcont1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 10px solid lime;
+    border-left: 10px solid lime;
+    border-right: 10px solid lime;
+    border-radius: 50%;
+    margin-bottom: 75px;
+}
+
+.cont3 {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "game1";
+}
+
+.p4 {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 25px;
+}
+
+.game1 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    transition: 0.6s;
+    grid-area: game1;
+}
+
+.game1:hover {
+    transform: translateX(10px);
+}
+
+.img2 {
+    width: 100%;
+    object-fit: contain;
+    transition: 0.6s;  
+}
+
+.textcont2 {
+    background-color: #181824;
+    width: 90%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.button1 {
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: lime;
+    border: 2px solid lime;
+    border-radius: 20px;
+    box-shadow: 0 0 10px lime;
+    transition: 0.6s;
+}
+
+.button1:hover {
+    color: lime;
+    background-color: transparent;
+    box-shadow: 0 0 200px lime;
+}
+
+.full4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: black;
+}
+
+.center4 {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p5 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.icon1 {
+    display: flex;
+    justify-content: center;
+}
+
+.up1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
